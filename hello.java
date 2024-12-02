@@ -31,3 +31,19 @@ class hello{
     System.out.println(a + b - c);
   }
 }
+
+//System.out.print() 
+//that system is coming from java.lang.System;
+//where the system is connected to terminal or server
+
+import java.lang.System;
+import java.util.Scanner;
+class hello{
+public static void main(String args[])
+{
+Scanner john = new Scanner(System.in);
+int a = john.nextInt();
+System.out.print(a);
+}
+}
+//takes the value entered at terminal and stores it in a , prints a
