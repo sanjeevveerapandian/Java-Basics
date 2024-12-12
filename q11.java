@@ -4,15 +4,15 @@ class Hello{
 	public static void main(String args[])
 	{
 	Scanner scan = new Scanner(System.in);
-	String RCB = scan.nextLine();
+	String meghana = scan.nextLine();
 	
-	if (RCB.equals("win"))
+	if (meghana.equals("Dead"))
 	{
-	System.out.println("Ee sala cup namadhe");
+	System.out.println("Surya meets Ramya");
 	}
 	else
 	{
-	System.out.println("Cup illa");
+	System.out.println("Surya Weds Meghana");
 	}
 	}
 	}
