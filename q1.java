@@ -1,4 +1,4 @@
-package Basics;
+
 import java.util.Scanner;
 class q1{
   public static void main(String args[])

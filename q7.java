@@ -1,4 +1,4 @@
-package Basics;
+
 //how to compare two strings
 //How memory works in java
 
