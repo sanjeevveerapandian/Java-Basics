@@ -4,6 +4,6 @@ class Wallet{
     int transfer =300;
     int deposit =500;
     balance=balance-transfer+deposit;
-    System.out.println(balance);
+    System.out.println("Balance="+balance);
   }
 }

@@ -6,9 +6,11 @@ public class Test1 {
     b1=null;
     System.out.println(b1);
   }
-  class Book{
-  
-  }
+
+}
+
+class Book{
   
 }
+
 
