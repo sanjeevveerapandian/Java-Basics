@@ -1,12 +1,16 @@
 class Main {
-  static void pattern3(int N)
+  static void pattern6(int N)
 {
    // This is the outer loop which will loop for the rows.
-   for (int i = 1; i <= N; i++)
+   for (int i = 0; i < N; i++)
    {
-       // This is the inner loop which loops for the columns 
+       // This is the inner loop which loops for the columns
+       // no. of columns = (N - row index) for each line here
+       // as we have to print an inverted pyramid.
+       // (N-j) will give us the numbers in a row starting from 1 to N-i.
+       for (int j = N; j > i; j--)
        {
-           System.out.print(j+" ");
+           System.out.print(N-j+1+" ");
        }
 
         // As soon as numbers for each iteration are printed, we move to the
@@ -21,6 +25,6 @@ class Main {
        // Here, we have taken the value of N as 5.
        // We can also take input from the user.
        int N = 5;
-       pattern3(N);
+       pattern6(N);
    }
 }
